@@ -1,0 +1,79 @@
+.modal_container {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  max-width: 1000px;
+  width: 80%;
+  height: 60%;
+  padding-left: 5px;
+  padding-right: 5px;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  background-color: #12100e;
+  overflow-y: auto;
+  box-shadow: -3px -5px 9px #ffffff73, 5px 5px 9px rgba(94, 104, 121, 0.288);
+}
+
+.image {
+  object-fit: cover;
+  width: 500px;
+  height: 100%;
+}
+
+.cancel {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  border-radius: 5%;
+  padding: 5px;
+  border-color: white;
+  top: 10px;
+  left: 20px;
+  cursor: pointer;
+  background-color: #3d0737;
+}
+
+.infos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.button {
+  width: 100px;
+}
+
+.name {
+  color: #f65ae2;
+}
+
+.description {
+  color: #e2e8f6;
+}
+
+.price {
+  color: #f65ae2;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .modal_container {
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .image {
+    width: 100%;
+  }
+}

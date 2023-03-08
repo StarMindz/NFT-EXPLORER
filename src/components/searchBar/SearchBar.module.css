@@ -1,0 +1,29 @@
+.search_bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  padding: 3px;
+  border-radius: 20px;
+  border: 1px solid rgb(71, 68, 68);
+  margin: 50px;
+  background-color: white;
+}
+
+.input {
+  border: none;
+  padding: 5px;
+  height: 30px;
+  border-radius: 20px;
+  outline: none;
+  width: 230px;
+}
+
+.button {
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid rgb(71, 68, 68);
+  border-radius: 100%;
+  padding: 10px;
+}
