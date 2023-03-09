@@ -66,9 +66,6 @@
 @media screen and (max-width: 700px) {
   .modal_container {
     flex-direction: column;
-    top: 0;
-    left: 0;
-    transform: none;
     width: 80%;
     height: 80vh;
     flex-wrap: no-wrap;
