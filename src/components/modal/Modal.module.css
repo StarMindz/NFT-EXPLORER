@@ -66,14 +66,14 @@
 @media screen and (max-width: 700px) {
   .modal_container {
     flex-direction: column;
-    width: 80%;
+    width: 80vw;
     height: 80vh;
     flex-wrap: no-wrap;
     padding: 0;
   }
 
   .image {
-    width: 100%;
+    width: 80vw;
     height: auto;
     object-fit: fill;
   }
