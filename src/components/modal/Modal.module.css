@@ -20,7 +20,7 @@
 
 .image {
   object-fit: cover;
-  width: 500px;
+  width: 50%;
   height: 100%;
 }
 
@@ -67,8 +67,8 @@
 @media screen and (max-width: 800px) {
   .modal_container {
     flex-direction: column;
-    width: 60%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
   }
 
   .image {

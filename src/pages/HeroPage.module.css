@@ -93,3 +93,10 @@
     border-radius: 10px;
   }
 }
+
+
+@media screen and (max-width: 280px) {
+  .first_image {
+    width: 250px;
+  }
+}
