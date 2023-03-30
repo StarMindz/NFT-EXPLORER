@@ -10,7 +10,6 @@ import style from './styles.module.css';
 const SearchGrid = () => {
   const assets = useSelector((store) => store.assets);
   const singleAsset = useSelector((store) => store.singleAsset);
-  console.log(singleAsset);
   const placeholderImage = 'https://via.placeholder.com/500';
 
   const [modalInfo, setModalInfo] = useState('');

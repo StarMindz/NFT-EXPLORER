@@ -1,5 +1,5 @@
 import style from './HeroPage.module.css';
-import image1 from '../images/NFT1.jpg';
+import image1 from '../images/NFT1.avif';
 import image2 from '../images/NFT2.jfif';
 
 const Hero = () => {
