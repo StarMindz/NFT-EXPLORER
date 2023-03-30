@@ -15,7 +15,7 @@
 .main_heading {
   font-size: 48px;
   font-weight: 500;
-  font-family: Roboto;
+  font-family: 'Playfair Display', serif;
   color:  #f65ae2;
   width: 445px;
 }
@@ -24,7 +24,7 @@
   width: 445px;
   font-size: 20px;
   line-height: 35px;
-  font-family: Roboto;
+  font-family: Lato;
   margin-top: 20px;
   color: #58d0ea;
 }
@@ -47,18 +47,20 @@
 }
 
 .first_image {
-  width: 300px;
+  width: 450px;
   position: absolute;
+  border-radius: 10px;
 }
 
 .second_image {
-  width: 180px;
+  width: 250px;
   position: relative;
-  top: 109px;
-  right: 106px;
+  top: 180px;
+  right: 206px;
+  border-radius: 10px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
   .intro {
     display: flex;
     flex-wrap: wrap;
@@ -77,4 +79,17 @@
     width: 80vw;
   }
 
+  .first_image {
+    width: 300px;
+    position: absolute;
+    border-radius: 10px;
+  }
+  
+  .second_image {
+    width: 150px;
+    position: relative;
+    top: 109px;
+    right: 106px;
+    border-radius: 10px;
+  }
 }

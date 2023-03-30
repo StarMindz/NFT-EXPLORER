@@ -9,7 +9,7 @@
 
 .nav_bar_menu {
   position: fixed;
-  background-color: rgba(255, 255, 255);
+  background-color: rgba(161, 12, 141, 0.9);
   left: -100%;
   top: 0;
   width: 100%;
@@ -72,8 +72,8 @@
 .home,
 .search {
   background-color: transparent;
-  font-size: 20px;
-  color: black;
+  font-size: 22px;
+  color: white;
   text-decoration: none;
   font-weight: bolder;
 }
@@ -86,7 +86,10 @@
 .company_name {
   height: 50px;
   width: 210px;
+  transform: scale(0.7);
+  margin-left: -10px;
   background-color: transparent;
+  color: white;
 }
 
 @media (min-width: 600px) {
@@ -115,10 +118,12 @@
   
     .company_name {
       margin-left: 20px;
+      transform: scale(0.9);
     }
 
     .home,
     .search {
       color: #e2e8f6;
+      font-size: 20px;
     }
   }

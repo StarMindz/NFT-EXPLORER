@@ -10,6 +10,11 @@ const NavBar = () => {
 
   const pullMenu = () => {
     setState((state) => ({ toggle: !state.toggle }));
+    if (state.toggle) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
   };
 
   const nav = (
