@@ -60,8 +60,9 @@
   
  ### Key Features <a name="key-features"></a> 
   
- - **[You can search for your NFT in the NFT section using the search bar]** 
- - **[Clicking the 'details' button navigates the user to a new page with more information]** 
+- Store your Health Data - Harchive enables you to easily store your health data in one place.
+- View Your Data - You can easily view your stored data in a well-structured manner.
+- Manage Your Data - You can manage your health data by adding, updating, or deleting your records.king the 'details' button navigates the user to a new page with more information]** 
  
   
  <p align="right">(<a href="#readme-top">back to top</a>)</p> 
