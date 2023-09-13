@@ -63,7 +63,7 @@ const SearchGrid = () => {
             name={modalInfo.name}
             description={modalInfo.description}
             image={singleAsset.image ? singleAsset.image : modalInfo.image}
-            floor={modalInfo.price}
+            floor={modalInfo.floor}
             cancel={cancelModal}
             opensea={singleAsset.opensea}
           />

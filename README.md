@@ -76,7 +76,7 @@
 
 >Link to live Demo 
 
-- [Click here to explore](https://beyond-home.netlify.app) 
+- [Click here to explore](https://nft-explore.netlify.app/) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
